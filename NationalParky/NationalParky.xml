@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NationalParky</name>
+    </assembly>
+    <members>
+        <member name="M:NationalParky.Controllers.NationalParkController.GetNationalPark">
+            <summary>
+            Get List Of NationalParks
+            </summary>
+            <returns>ObjDto</returns>
+        </member>
+        <member name="M:NationalParky.Controllers.NationalParkController.GetNationalPark(System.Int32)">
+            <summary>
+             Get Individual NationalPark
+            </summary>
+            <param name="nationalParkId">The Id of the National Park</param>
+            <returns>ObjDto</returns>
+        </member>
+        <member name="M:NationalParky.Controllers.NationalParkController.CreateNationalPark(NationalParky.Models.Dtos.NationalParkDto)">
+            <summary>
+            Create NationalPark
+            </summary>
+            <param name="nationalParkDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NationalParky.Controllers.NationalParkController.UpdateNationalPark(System.Int32,NationalParky.Models.Dtos.NationalParkDto)">
+            <summary>
+            Update NationalPark
+            </summary>
+            <param name="nationalParkId">The Id of the National Park</param>
+            <param name="nationalParkDto">NationalParkDto</param>
+            <returns>NoContent</returns>
+        </member>
+        <member name="M:NationalParky.Controllers.NationalParkController.DeleteNationalPark(System.Int32)">
+            <summary>
+            Delete NationalPark
+            </summary>
+            <param name="nationalParkId">The Id of the National Park</param>
+            <returns>NoContent</returns>
+        </member>
+        <member name="M:NationalParky.Controllers.TrailController.GetTrails">
+            <summary>
+            Get List Of Trails
+            </summary>
+            <returns>ObjDto</returns>
+        </member>
+        <member name="M:NationalParky.Controllers.TrailController.GetTrail(System.Int32)">
+            <summary>
+            Get Individual Trail
+            </summary>
+            <param name="trailId">The Id of the Trail</param>
+            <returns>objDto</returns>
+        </member>
+        <member name="M:NationalParky.Controllers.TrailController.GetTrailInNationalPark(System.Int32)">
+            <summary>
+            Get  Trail In NationalPark
+            </summary>
+            <param name="nationalParkId">The Id of the NationalPark</param>
+            <returns>objDto</returns>
+        </member>
+        <member name="M:NationalParky.Controllers.TrailController.CreateTrail(NationalParky.Models.Dtos.TrailCreateDto)">
+            <summary>
+            Create Trail
+            </summary>
+            <param name="trailDto">The Trail Details</param>
+            <returns>TrailDto</returns>
+        </member>
+        <member name="M:NationalParky.Controllers.TrailController.UpdateTrail(System.Int32,NationalParky.Models.Dtos.TrailUpdateDto)">
+            <summary>
+            Update Trail
+            </summary>
+            <param name="trailId">>The Id of the Trail</param>
+            <param name="trailDto">The Trail Details</param>
+            <returns>NoContent</returns>
+        </member>
+        <member name="M:NationalParky.Controllers.TrailController.DeleteTrail(System.Int32)">
+            <summary>
+            Delete Trail 
+            </summary>
+            <param name="trailId">>The Id of the Trail</param>
+            <returns>NoContent</returns>
+        </member>
+    </members>
+</doc>
